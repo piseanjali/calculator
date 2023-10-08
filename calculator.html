@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Calculator</title>
+        <style>
+            .body{
+                margin: 0;
+                padding: 0;
+                background-color: #ff00ff;
+            }
+            .app-title{
+                text-align: center;
+                color:black;
+                font-size: 40px;
+
+            }
+            .calculator-container{
+                background-color:#8585ad;
+                width:250px;
+                display: block;
+                margin-left:auto;
+                margin-right:auto;
+                border-radius:8px;
+                padding:5px;
+                padding-bottom: 13px;
+            }
+            .brand-name{
+                text-align:right;
+                margin-right: 30px;
+                font-weight: bold;
+                color: white;
+            }
+            .calculator-screen{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 200px;
+                font-size: 40px;
+                border-radius: 3px;
+                border: none;
+                background-color: #9fdf9f;
+
+            }
+            .buttons-container{
+
+                margin-top: 10px;
+                margin-left: 12px;
+                margin: 15px;
+                display:flex;
+                justify-content: space-around;
+                flex-wrap: wrap;
+            }
+            .btn{
+                font-size: 30px;
+                height: 38px;
+                width: 38px;
+                margin: 4px;
+                border-radius: 5px;
+                border:1px solid #000;
+            
+            }
+            .btn-special{
+                background-color:#ffb380;
+                color: white;
+
+            }
+            .btn:hover{
+               border-radius: 6px;
+               transition: 0.5sec;
+               cursor: pointer;
+               box-shadow: 0 0 6px #fff;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 class="app-title">Calculator</h1>
+
+        <div class="calculator-container">
+            <p class="brand-name">RTC</p>
+
+            <input type="text" class="calculator-screen"/>
+            <div class="buttons-container">
+                <button class="btn">1</button>
+                <button class="btn">2</button>
+                <button class="btn">3</button>
+                <button class="btn btn-special">+</button>
+
+                <button class="btn">4</button>
+                <button class="btn">5</button>
+                <button class="btn">6</button>
+                <button class="btn btn-special">-</button>
+
+                <button class="btn">7</button>
+                <button class="btn">8</button>
+                <button class="btn">9</button>
+                <button class="btn btn-special">*</button>
+
+                <button class="btn btn-special">.</button>
+                <button class="btn">0</button>
+                <button class="btn">=</button>
+                <button class="btn btn-special">/</button>
+
+            </div>
+
+            </div>
+
+            </div>
+        </div>
+
+        </div>
+    </body>
+</html>
